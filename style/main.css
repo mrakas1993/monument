@@ -1,0 +1,381 @@
+*{
+	padding: 0;
+	margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
+h1,h2,h3,p{
+  padding: 0;
+  margin: 0;
+}
+ul,ol{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+header{
+	background-color: #0D4285;
+	box-shadow: 0 0 25px black;
+}
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.header{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+.logo>img{
+		position: absolute;
+    top: 0;
+    width: 120px;
+}
+.menu{
+  display: flex;
+}
+.menu-item{
+  margin-right: 30px;
+  padding: 18px 0;
+}
+.menu-item:last-child{
+  margin: 0;
+}
+.meni-link{
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+
+footer{
+	position: relative;
+	bottom: 0;
+}
+footer{
+	background-color: #0D4285;
+	box-shadow: 0 0 25px black;
+
+}
+.footer{
+	display: flex;
+	justify-content: space-between;
+  align-items: center;
+
+}
+.footer-nav{
+}
+.footer-nav>li{
+
+	display: inline-block;	
+}
+.footer-nav>li>a{
+    padding-right: 20px;
+    text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+.footer-logo>img{
+	padding: 20px 100px 20px 0px;
+    height: 100px;
+    
+}
+.copyright{
+	color:white;
+}
+.glav{
+	width: 1000px;
+	height: 400px;
+	box-shadow: 0 0 25px black;
+	background-color: #0D4285;
+	margin-top: 12%;
+  margin-bottom:10%;
+    margin-right:auto;
+	margin-left:auto;
+	display: flex
+}
+.glav>.logoglav{
+	padding-top: 20px;
+	padding-left: 50px;
+}
+.glav>.logoglav>img{
+    height: 330px;
+}
+.glav>.textglav>p{
+   color: white;
+   font-size: 38px;
+   padding-left: 70px;
+   padding-top:48px;
+   padding-right: 10px;
+}
+body{
+    background-image: url(../img/aerial-view-lake-with-green-trees\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  background-position:center;
+}
+.body{
+	  padding-top: 60px;
+	  padding-bottom: 60px;
+}
+.slov{
+  margin-left: 0px;
+  margin-top: 170px;
+  width: 335px;
+  height: 300px;
+  float: left;
+
+}
+.region{
+    text-align: justify;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #616564;
+
+}
+
+
+.activ{
+	fill: #0D4285 ;
+}
+.nonactiv{
+    fill: white;
+}
+.nonactiv:hover{
+  fill: #0D4285
+}
+div#belarus-map {
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+}
+svg{
+
+  width: 920px;
+   margin-top: auto;
+}
+.reg{
+   width: 500px;
+}
+.reg2{
+  width: 650px;
+}
+.reg3{
+  width: 400px;
+}
+svg>text{
+  cursor: pointer;
+  white-space: nowrap;
+}
+ /* Минская область */
+.MinskP1{
+  fill: white;
+}
+.MinskP0{
+  fill: #0D4285 
+}
+.Minsk:hover ~ .MinskP0{
+  fill: white;
+}
+.Minsk:hover ~ .BorisovP0{
+  fill: white;
+}
+.stM0{
+  font-size: 20px;
+  font-weight: bold;
+}
+.stM1{
+  font-size: 20px;
+  font-weight: bold;
+  fill: white;
+}
+.Minsk:hover ~ .stM0{
+  fill: white;
+}
+.st1M0{
+  font-size: 15px;
+  font-weight: bold;
+}
+.st1M1{
+  font-size: 15px;
+  font-weight: bold;
+  fill: white;
+}
+.Minsk:hover ~ .st1M0{
+  fill: white;
+}
+/*Гродненьская область*/
+.GrodnaP1{
+  fill: white;
+}
+.GrodnaP0{
+  fill: #0D4285 
+}
+.Grodno:hover ~ .GrodnaP0{
+  fill: white;
+}
+.stG0{
+  font-size: 20px;
+  font-weight: bold;
+}
+.stG1{
+  font-size: 20px;
+  font-weight: bold;
+  fill: white;
+}
+.Grodno:hover ~ .stG0{
+  fill: white;
+}
+.st1G0{
+  font-size: 15px;
+  font-weight: bold;
+}
+.st1G1{
+  font-size: 15px;
+  font-weight: bold;
+  fill: white;
+}
+.Grodno:hover ~ .st1G0{
+  fill: white;
+}
+/*Брестская Область*/
+.BrestP1{
+  fill: white;
+}
+.BrestP0{
+  fill: #0D4285 
+}
+.Brest:hover ~ .BrestP0{
+  fill: white;
+}
+.stB0{
+  font-size: 20px;
+  font-weight: bold;
+}
+.stB1{
+  font-size: 20px;
+  font-weight: bold;
+  fill: white;
+}
+.Brest:hover ~ .stB0{
+  fill: white;
+}
+.st1B0{
+  font-size: 15px;
+  font-weight: bold;
+}
+.st1B1{
+  font-size: 15px;
+  font-weight: bold;
+  fill: white;
+}
+.Brest:hover ~ .st1B0{
+  fill: white;
+}
+/*Витебская Область*/
+.VitebskP1{
+  fill: white;
+}
+.VitebskP0{
+  fill: #0D4285 
+}
+.Vitebsk:hover ~ .VitebskP0{
+  fill: white;
+}
+.stV0{
+  font-size: 20px;
+  font-weight: bold;
+}
+.stV1{
+  font-size: 20px;
+  font-weight: bold;
+  fill: white;
+}
+.Vitebsk:hover ~ .stV0{
+  fill: white;
+}
+.st1V0{
+  font-size: 15px;
+  font-weight: bold;
+}
+.st1V1{
+  font-size: 15px;
+  font-weight: bold;
+  fill: white;
+}
+.Vitebsk:hover ~ .st1V0{
+  fill: white;
+}
+/*Могилевская Область*/
+.MogilevP1{
+  fill: white;
+}
+.MogilevP0{
+  fill: #0D4285 
+}
+.Mogilev:hover ~ .MogilevP0{
+  fill: white;
+}
+.stMG0{
+  font-size: 20px;
+  font-weight: bold;
+}
+.stMG1{
+  font-size: 20px;
+  font-weight: bold;
+  fill: white;
+}
+.Mogilev:hover ~ .stMG0{
+  fill: white;
+}
+.st1MG0{
+  font-size: 15px;
+  font-weight: bold;
+}
+.st1MG1{
+  font-size: 15px;
+  font-weight: bold;
+  fill: white;
+}
+.Mogilev:hover ~ .st1MG0{
+  fill: white;
+}
+/*Гомельская Область*/
+.GomelP1{
+  fill: white;
+}
+.GomelP0{
+  fill: #0D4285 
+}
+.Gomel:hover ~ .GomelP0{
+  fill: white;
+}
+.stGO0{
+  font-size: 20px;
+  font-weight: bold;
+}
+.stGO1{
+  font-size: 20px;
+  font-weight: bold;
+  fill: white;
+}
+.Gomel:hover ~ .stGO0{
+  fill: white;
+}
+.st1GO0{
+  font-size: 15px;
+  font-weight: bold;
+}
+.st1GO1{
+  font-size: 15px;
+  font-weight: bold;
+  fill: white;
+}
+.Gomel:hover ~ .st1GO0{
+  fill: white;
+}
