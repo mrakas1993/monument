@@ -90,9 +90,8 @@ section{
 }
 .block{
 	box-shadow: 0 0 25px black;
-	width: 1000px;
+	width: 1100px;
 	height: 500px;
-	background: ;
 		margin-top: 7%;
   margin-bottom:3%;
     margin-right:auto;
@@ -122,11 +121,13 @@ section{
 	margin-left: 266px;
     margin-top: -302px;
 }
+.info>h1{
+	font-size: 30px;
+}
 .info>p{
 	color: #0D4285;
 	padding-top: 10px;
 	font-size: 25px;
-	width: 
 }
 .mar-left{
 	margin-left:180px;

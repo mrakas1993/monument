@@ -31,7 +31,7 @@
 						<li class="menu-item"><a href="#Grodno1" class="meni-link">Гродненская</a></li>
 						<li class="menu-item"><a href="#Minsk1" class="meni-link">Минская</a></li>
 						<li class="menu-item"><a href="#Mogilev1" class="meni-link">Могилевская</a></li>
-						<li class="menu-item"><a href="#kontact1" class="meni-link">Контакты</a></li>
+						<li class="menu-item header-contact"><a href="info.html" class="meni-link">Контакты</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -470,11 +470,13 @@
   const driverObj = driver({
   showProgress: true,
   steps: [
-    { element: '.monster_box', popover: { title: 'Помошник', description: 'Привет, я вам помогу на нашем сайте',nextBtnText: 'Далее',
+    { element: '.monster_box', popover: { title: 'Помощник', description: 'Привет, я вам помогу на нашем сайте',nextBtnText: 'Далее',
     prevBtnText: 'Назад', } },
-    { element: '.map', popover: { title: 'Помошник', description: 'Выберите область на карте' } },
-    { element: '.reg2', popover: { title: 'Title', description: 'Description' } },
-    { element: '.footer', popover: { title: 'Title', description: 'Description' } },
+    { element: '.map', popover: { title: 'Помощник', description: 'Выберите область на карте',nextBtnText: 'Далее',
+    prevBtnText: 'Назад', } },
+    { element: '.menu', popover: { title: 'Помощник', description: 'Или выберите область из меню',nextBtnText: 'Далее',
+    prevBtnText: 'Назад', } },
+    { element: '.header-contact', popover: { title: 'Помощник', description: 'А также вы можете помочь нам развить проект через вкладку "Контакты" или познакомится с создателями проекта.',prevBtnText: 'Назад',nextBtnText: 'Готово', } },
   ]
 });
 
